@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 7860f5b7aec03b54ab3cdada4cc24478
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4567025598776922762
+    second: zegato_0
+  - first:
+      213: -1171528915087569521
+    second: zegato_1
+  - first:
+      213: -2705060020361086425
+    second: zegato_2
+  - first:
+      213: -4510022352551508184
+    second: zegato_3
+  - first:
+      213: 6209250646158114560
+    second: zegato_4
+  - first:
+      213: -9164925581979170206
+    second: zegato_5
+  - first:
+      213: -8963215620808141764
+    second: zegato_6
+  - first:
+      213: -8721854286698342562
+    second: zegato_7
+  - first:
+      213: 5049440993089456194
+    second: zegato_8
+  - first:
+      213: 1520546627890193995
+    second: zegato_9
+  - first:
+      213: -7696291047104171992
+    second: zegato_10
+  - first:
+      213: -2266497245052036066
+    second: zegato_11
+  - first:
+      213: -170949542548127117
+    second: zegato_12
+  - first:
+      213: -2589732753228632322
+    second: zegato_13
+  - first:
+      213: 3840771605590971760
+    second: zegato_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zegato_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 951
+        width: 589
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d29c04a6aae90c0800000000000000
+      internalID: -4567025598776922762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zegato_1
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1029
+        width: 596
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d4b14a8a4edbfe0800000000000000
+      internalID: -1171528915087569521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zegato_2
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 922
+        width: 348
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a34465e32b57ad0800000000000000
+      internalID: -2705060020361086425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zegato_3
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 951
+        width: 242
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8278813c09e2961c0800000000000000
+      internalID: -4510022352551508184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zegato_4
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 959
+        width: 134
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f7e9d8090bb2650800000000000000
+      internalID: 6209250646158114560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zegato_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 635
+        width: 544
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26acd35bdb4afc080800000000000000
+      internalID: -9164925581979170206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zegato_6
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 677
+        width: 589
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c349f7cc1e24c9380800000000000000
+      internalID: -8963215620808141764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zegato_7
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 575
+        width: 342
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5790a29cbfb5f680800000000000000
+      internalID: -8721854286698342562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zegato_8
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 575
+        width: 302
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248846384d7331640800000000000000
+      internalID: 5049440993089456194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zegato_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 361
+        width: 589
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4620d31a111a1510800000000000000
+      internalID: 1520546627890193995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zegato_10
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 292
+        width: 249
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8203651c118413590800000000000000
+      internalID: -7696291047104171992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zegato_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 370
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c954893c8cb80e0800000000000000
+      internalID: -2266497245052036066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zegato_12
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 34
+        width: 372
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37247e9fb4aa0adf0800000000000000
+      internalID: -170949542548127117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zegato_13
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 68
+        width: 353
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efeec9c28cb6f0cd0800000000000000
+      internalID: -2589732753228632322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zegato_14
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2
+        width: 241
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07518ae0d692d4530800000000000000
+      internalID: 3840771605590971760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      zegato_0: -4567025598776922762
+      zegato_1: -1171528915087569521
+      zegato_10: -7696291047104171992
+      zegato_11: -2266497245052036066
+      zegato_12: -170949542548127117
+      zegato_13: -2589732753228632322
+      zegato_14: 3840771605590971760
+      zegato_2: -2705060020361086425
+      zegato_3: -4510022352551508184
+      zegato_4: 6209250646158114560
+      zegato_5: -9164925581979170206
+      zegato_6: -8963215620808141764
+      zegato_7: -8721854286698342562
+      zegato_8: 5049440993089456194
+      zegato_9: 1520546627890193995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

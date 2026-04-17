@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6bb37fea2d8c44e46a79038c89b53ced
+guid: 6cd281b672c42dc46bc650790aaa87f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3619036218838570312
-    second: combateBackground_0
+      213: -2899918300386803006
+    second: mapaNoEscolha_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 167
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: combateBackground_0
+      name: mapaNoEscolha_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1500
-        height: 1000
+        x: 11
+        y: 13
+        width: 325
+        height: 303
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8baaad2cbb996cdc0800000000000000
-      internalID: -3619036218838570312
+      spriteID: 2c24ac39bab61c7d0800000000000000
+      internalID: -2899918300386803006
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      combateBackground_0: -3619036218838570312
+      mapaNoEscolha_0: -2899918300386803006
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

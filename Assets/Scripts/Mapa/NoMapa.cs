@@ -1,35 +1,48 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public enum TipoNo 
     { 
         Inimigo, 
         Evento, 
-        Descanso, //se houver
-        Loja //se houver
+        Descanso,
+        Loja
     }
 
 public class NoMapa : MonoBehaviour
 {
-    public Button botao;
-    private MapaGerenciador gerenciador;
-
+    private GerenciadorMapa gerenciadorMapa;
     public int noIndice;
     public bool isDesbloqueado;
-
-    public TipoNo tipo;
-    public ScriptableObject dadosDoEncontro; //inimigo/evento/coisa específica
+    public TipoNo tipoNo;
+    public ScriptableObject dadosDoEncontro;
 
     void Awake(){
-        botao = GetComponent<Button>();
-        gerenciador = FindAnyObjectByType<MapaGerenciador>();
-        botao.onClick.AddListener(AoClicar);
+        gerenciadorMapa = FindAnyObjectByType<GerenciadorMapa>();//linka sozinho ao GerenciadorMapa
     }
 
-    void AoClicar() => gerenciador.OnStageClicked(this);
+    //HOVER
+    void OnMouseEnter()
+    {
+        if (isDesbloqueado) GetComponent<SpriteRenderer>().color = Color.skyBlue;
+    }
+    void OnMouseExit()
+    {
+        if (isDesbloqueado) GetComponent<SpriteRenderer>().color = Color.white;
+    }
 
-    public void AtualizarClicavel(int estagioMaximo){
-        isDesbloqueado = noIndice <= estagioMaximo;
-        botao.interactable = isDesbloqueado;
+    void OnMouseDown(){
+        if(isDesbloqueado){
+            gerenciadorMapa.OnStageClicked(this);//informa ao gerenciador que clicou neste nó
+        }
+    }
+
+    public void AtualizarClicavel(int estagioPermitido){
+        isDesbloqueado = (noIndice == estagioPermitido);
+
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        if (sr != null)
+        {
+            sr.color = isDesbloqueado ? Color.white : new Color(0.3f, 0.3f, 0.3f, 1f);
+        }
     }
 }

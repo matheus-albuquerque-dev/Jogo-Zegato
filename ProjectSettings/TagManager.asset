@@ -41,6 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2160612801
+    locked: 0
+  - name: Entidades
+    uniqueID: 3983520675
+    locked: 0
+  - name: Interface
+    uniqueID: 2456231907
+    locked: 0
   m_RenderingLayers:
   - Default
   m_MigratedRenderPipelines: []

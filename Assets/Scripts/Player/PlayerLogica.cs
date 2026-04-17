@@ -11,16 +11,15 @@ public class PlayerLogica : MonoBehaviour
 
     public Rive.Components.RivePanel visualRive;//para animação "conversar" com lógica
 
-    private StatusPlayer dadosOriginais; //para registrar os dados durante o combate
+    private StatusPlayer dadosOriginais;//para registrar os dados durante o combate
 
-    public void LerDados(StatusPlayer dadosStatusPlayer)
-    {
-        if (dadosStatusPlayer == null) {
+    public void LerDados(StatusPlayer dadosStatusPlayer){
+        if (dadosStatusPlayer == null){
             Debug.LogError("ERRO: O ScriptableObject de Status não chegou no PlayerLogica!");
             return;
         }
 
-        dadosOriginais = dadosStatusPlayer; //para registrar os dados durante o combate
+        dadosOriginais = dadosStatusPlayer;//para registrar os dados durante o combate
 
         nomePlayer = dadosStatusPlayer.nomePlayerSalvo;
         hpAtualPlayer = dadosStatusPlayer.hpAtualPlayerSalvo;
@@ -32,14 +31,12 @@ public class PlayerLogica : MonoBehaviour
         // TODO: Chamar Rive para setar visual
     }
 
-    public void ReceberDano(int danoInimigo)
-    {
+    public void ReceberDano(int danoInimigo){
         hpAtualPlayer -= danoInimigo;
-        if (hpAtualPlayer < 0) hpAtualPlayer = 0;//garante que não fica negativo
+        if (hpAtualPlayer < 0){hpAtualPlayer = 0;}//garante que não fica negativo
         
         //REGISTRO NO SCRIPTABLEOBJECT
-        if (dadosOriginais != null)//evita crash
-        {
+        if (dadosOriginais != null){//evita crash
             dadosOriginais.hpAtualPlayerSalvo = hpAtualPlayer;
             // !!!TODO: PRECISA DE JSON/PlayerPrefs PARA SALVAR DE VERDADE, SE NÃO OS DADOS VÃO VOLTAR AO ORIGINAL AO REINICIAR O JOGO
             //| Opcional | Avisa Unity que o arquivo mudou (para não perder dados se o editor fechar)
@@ -49,8 +46,7 @@ public class PlayerLogica : MonoBehaviour
         }
         Debug.Log($"Dano recebido! HP atual: {hpAtualPlayer}");
 
-        if(hpAtualPlayer == 0) 
-        {
+        if(hpAtualPlayer == 0){
             // TODO: ANIMAÇÃO e CENA de Morte no Rive e no resto do jogo pra dar um game over, não necessariamente escrito aqui, mas pelo menos o "link" pra ativar, um "sinal"
         }
     }
@@ -58,14 +54,12 @@ public class PlayerLogica : MonoBehaviour
     //POR ENQUANTO USANDO SPRITESHEET, ENQUANTO RIVE NÃO VEM
     public Animator Animador; 
 
-    public void AnimacaoAtaque()
-    {
-        if (Animador != null)
-        {
+    public void AnimacaoAtaque(){
+        if (Animador != null){
             Animador.SetTrigger("atacar"); 
         }
-        else {
-            Debug.LogError($"O objeto {gameObject.name} não tem um Animador linkado!");
+        else{
+            Debug.LogError($"O objeto {gameObject.name} não tem um Animador linkado.");
         }
     }
 }

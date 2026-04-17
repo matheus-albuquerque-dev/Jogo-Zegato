@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 public enum EstadoCombate{
-    LOADING, //GARANTE QUE SÓ COMEÇA DEPOIS DE CONFIGURAR TUDO
+    LOADING,//GARANTE QUE SÓ COMEÇA DEPOIS DE CONFIGURAR TUDO
     TURNO_PLAYER, 
     TURNO_INIMIGO, 
     VITORIA, 
@@ -15,8 +15,7 @@ public class GerenciadorCombate : MonoBehaviour
     private WaitForSeconds pausaLog;//evitar aviso das coroutines
 
     public EstadoCombate estadoAtual;
-    
-    // Referências aos combatentes
+
     public PlayerLogica player;
     public InimigoLogica inimigo;
 
@@ -41,7 +40,7 @@ public class GerenciadorCombate : MonoBehaviour
 
     void CarregarCombate(){
         player.LerDados(dadosDoPlayer);
-        inimigo.LerDados(dadosDoInimigo);//TODO: deverá ser passado pelo nó
+        inimigo.LerDados(dadosDoInimigo);//TODO: deverá ser passado (aleatoriamente) ao entrar no nó
 
         estadoAtual = EstadoCombate.TURNO_PLAYER;
         StartCoroutine(TurnoPlayer());
@@ -94,7 +93,7 @@ public class GerenciadorCombate : MonoBehaviour
     }
 
     void FinalizarCombate(){
-        if (estadoAtual == EstadoCombate.VITORIA) Debug.Log("Ganhou!");
-        else Debug.Log("Perdeu!");
+        if (estadoAtual == EstadoCombate.VITORIA) Debug.Log("Player VENCEU");
+        else Debug.Log("Player PERDEU");
     }
 }

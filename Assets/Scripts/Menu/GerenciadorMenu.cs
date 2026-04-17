@@ -5,7 +5,7 @@ public class GerenciadorMenu : MonoBehaviour
 {
     public void NovoJogo()
     {
-        SceneManager.LoadScene("Mapa");
+        SceneManager.LoadScene("Mundo");
     }
 
     public void Continuar()

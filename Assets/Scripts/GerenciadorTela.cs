@@ -11,6 +11,16 @@ public class GerenciadorTela : MonoBehaviour
     [Header("Câmera do Jogo")]
     public SeguirAlvo scriptDaCamera;
 
+    [Header("Interfaces")]
+    public GameObject hudMapa;
+    public GameObject hudCombate;
+
+    private void CenaCombate(bool emCombate){
+        hudCombate.SetActive(emCombate);
+        hudMapa.SetActive(!emCombate);
+        objetoCombate.SetActive(emCombate);
+        objetoMapa.SetActive(!emCombate);
+    }
 
     void Awake(){//Singleton
         if (instanciaGerenciadorTela == null){
@@ -32,9 +42,6 @@ public class GerenciadorTela : MonoBehaviour
             Debug.LogError("Faltou linkar a câmera no gerenciador de tela.");
         }
 
-        objetoMapa.SetActive(false);
-        objetoCombate.SetActive(true);
-        
         //pega PlayerLogica dentro de objetoCombate
         PlayerLogica scriptPlayer = objetoCombate.GetComponentInChildren<PlayerLogica>();
 
@@ -44,7 +51,11 @@ public class GerenciadorTela : MonoBehaviour
         }
         else{
             Debug.LogError("Erro: O script PlayerLogica no objetoCombate/GerenciadorPlayer não existe.");
+            return;
         }
+
+        //ativa HUD e objeto de combate
+        CenaCombate(true);
     }
 
     public void VoltarMapa(){

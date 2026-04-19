@@ -47,6 +47,9 @@ TagManager:
   - name: Entidades
     uniqueID: 3983520675
     locked: 0
+  - name: Nuvem
+    uniqueID: 4110040917
+    locked: 0
   - name: Interface
     uniqueID: 2456231907
     locked: 0

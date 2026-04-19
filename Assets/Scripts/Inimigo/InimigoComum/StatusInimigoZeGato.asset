@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: StatusInimigoZeGato
   m_EditorClassIdentifier: Assembly-CSharp::StatusInimigo
   nomeInimigoSalvo: InimigoZegato
-  hpAtualInimigoSalvo: 230
+  hpAtualInimigoSalvo: 150
   hpMaxInimigoSalvo: 1000
   danoInimigoSalvo: 2

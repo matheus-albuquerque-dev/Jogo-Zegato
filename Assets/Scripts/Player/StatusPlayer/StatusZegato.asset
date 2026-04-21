@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: StatusZegato
   m_EditorClassIdentifier: Assembly-CSharp::StatusPlayer
   nomePlayerSalvo: Zegato
-  hpAtualPlayerSalvo: 776
+  hpAtualPlayerSalvo: 732
   hpMaxPlayerSalvo: 100
   habilidadesAtuaisPlayerSalvo: []

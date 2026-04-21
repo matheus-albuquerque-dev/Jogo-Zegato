@@ -1493,7 +1493,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -0.00018310547, y: 0}
+  m_AnchoredPosition: {x: -0.00012207031, y: 0}
   m_SizeDelta: {x: 80, y: 400}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &500975274
@@ -1563,9 +1563,11 @@ GameObject:
   - component: {fileID: 518105822}
   - component: {fileID: 518105825}
   - component: {fileID: 518105824}
+  - component: {fileID: 518105829}
   - component: {fileID: 518105823}
   - component: {fileID: 518105826}
   - component: {fileID: 518105827}
+  - component: {fileID: 518105828}
   m_Layer: 0
   m_Name: Habilidade3
   m_TagString: Untagged
@@ -1635,7 +1637,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 518105824}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 518105828}
+        m_TargetAssemblyTypeName: CartaController, Assembly-CSharp
+        m_MethodName: SelecaoHabilidade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &518105824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1716,6 +1730,34 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &518105828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518105821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c792ec1dc3e0b8c45aba1c765e8d3605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CartaController
+  escalaZoom: 3.2
+  tempoAnimacao: 0.4
+--- !u!114 &518105829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518105821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c792ec1dc3e0b8c45aba1c765e8d3605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CartaController
+  escalaZoom: 3.2
+  tempoAnimacao: 0.5
 --- !u!1 &596304502
 GameObject:
   m_ObjectHideFlags: 0
@@ -1938,9 +1980,11 @@ GameObject:
   - component: {fileID: 723632452}
   - component: {fileID: 723632455}
   - component: {fileID: 723632454}
+  - component: {fileID: 723632459}
   - component: {fileID: 723632453}
   - component: {fileID: 723632456}
   - component: {fileID: 723632457}
+  - component: {fileID: 723632458}
   m_Layer: 0
   m_Name: Habilidade1
   m_TagString: Untagged
@@ -2010,7 +2054,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 723632454}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 723632458}
+        m_TargetAssemblyTypeName: CartaController, Assembly-CSharp
+        m_MethodName: SelecaoHabilidade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &723632454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2091,6 +2147,34 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &723632458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723632451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c792ec1dc3e0b8c45aba1c765e8d3605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CartaController
+  escalaZoom: 3.2
+  tempoAnimacao: 0.4
+--- !u!114 &723632459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723632451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c792ec1dc3e0b8c45aba1c765e8d3605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CartaController
+  escalaZoom: 3.2
+  tempoAnimacao: 0.5
 --- !u!1 &798614527
 GameObject:
   m_ObjectHideFlags: 0
@@ -2467,9 +2551,11 @@ GameObject:
   - component: {fileID: 963650913}
   - component: {fileID: 963650916}
   - component: {fileID: 963650915}
+  - component: {fileID: 963650920}
   - component: {fileID: 963650914}
   - component: {fileID: 963650917}
   - component: {fileID: 963650918}
+  - component: {fileID: 963650919}
   m_Layer: 0
   m_Name: Habilidade0
   m_TagString: Untagged
@@ -2539,7 +2625,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 963650915}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 963650919}
+        m_TargetAssemblyTypeName: CartaController, Assembly-CSharp
+        m_MethodName: SelecaoHabilidade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &963650915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2620,6 +2718,34 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &963650919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963650912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c792ec1dc3e0b8c45aba1c765e8d3605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CartaController
+  escalaZoom: 3.2
+  tempoAnimacao: 0.4
+--- !u!114 &963650920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963650912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c792ec1dc3e0b8c45aba1c765e8d3605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CartaController
+  escalaZoom: 3.2
+  tempoAnimacao: 0.5
 --- !u!1 &975085024
 GameObject:
   m_ObjectHideFlags: 0
@@ -4475,9 +4601,11 @@ GameObject:
   - component: {fileID: 1727802337}
   - component: {fileID: 1727802340}
   - component: {fileID: 1727802339}
+  - component: {fileID: 1727802344}
   - component: {fileID: 1727802338}
   - component: {fileID: 1727802341}
   - component: {fileID: 1727802342}
+  - component: {fileID: 1727802343}
   m_Layer: 0
   m_Name: Habilidade2
   m_TagString: Untagged
@@ -4547,7 +4675,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1727802339}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1727802343}
+        m_TargetAssemblyTypeName: CartaController, Assembly-CSharp
+        m_MethodName: SelecaoHabilidade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1727802339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4628,6 +4768,34 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1727802343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727802336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c792ec1dc3e0b8c45aba1c765e8d3605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CartaController
+  escalaZoom: 3.2
+  tempoAnimacao: 0.4
+--- !u!114 &1727802344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727802336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c792ec1dc3e0b8c45aba1c765e8d3605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CartaController
+  escalaZoom: 3.2
+  tempoAnimacao: 0.5
 --- !u!1 &1792553212
 GameObject:
   m_ObjectHideFlags: 0
